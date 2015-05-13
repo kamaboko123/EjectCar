@@ -39,6 +39,7 @@ Ejectカー側はJavaで書かれていますので,実行環境を用意して�
 以下のライブリラリを使用します.  
 * socket.io通信 [socket.io-java-client](https://github.com/Gottox/socket.io-java-client)  
 * JSON関連 [org.json](http://www.json.org/java/index.html)  
+
 socket.ioのライブリラリはantを使うと楽にjarにできます.  
 JSONのライブリラリもコンパイル,アーカイブしてjarにしてください.  
 classpathに追加してください.  
@@ -85,5 +86,5 @@ Eject実行後には再通知が行われます.
 以下のライブラリを使用しますので,/WebClient配下に置きます.  
 * [jQuery](http://jquery.com/)
 * [CreateJS](http://www.createjs.com/#!/CreateJS)
-* [Socket.IO](http://socket.io)
+* [Socket.IO](http://socket.io)  
 ※socket.ioのバージョンはServer側で利用するnode.jsのsocket.ioバージョンと揃えてください.
